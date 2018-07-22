@@ -1,0 +1,37 @@
+.main__article{
+	width: 420px;
+	padding-bottom: 130px;
+	display: inline-block;
+	margin-right: 55px;
+}
+.main__article:nth-child(2n){
+	margin-right: 0;
+}
+.main__article:nth-child(1n+5){
+	padding-bottom: 50px;
+}
+.main-name{
+	text-transform: uppercase;
+	color: #c7c1b6;
+	font-style: normal;
+	font-family: sans-serif;
+	padding: 30px 0 40px 0;
+}
+.main-title{
+	font-size: 30px;
+	font-family: sans-serif;
+	font-weight: 100;
+	color: #757575;
+	padding-bottom: 20px;
+}
+.main-title::first-letter{
+	text-transform: uppercase;
+}
+.main-btn{
+	width: 165px;
+	height: 60px;
+	text-transform: uppercase;
+	background-color: #ffffff;
+	border: 1px solid;
+	margin-left: 365px;
+}
